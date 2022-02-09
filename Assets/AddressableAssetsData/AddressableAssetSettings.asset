@@ -43,6 +43,11 @@ MonoBehaviour:
   m_GroupAssets:
   - {fileID: 11400000, guid: e780c77198e97ee47b427c7b81e7c09e, type: 2}
   - {fileID: 11400000, guid: 28545dc2144e6de43916491d8f7d0901, type: 2}
+  - {fileID: 11400000, guid: 86dd6719d40bc454382c030f2c8a1da4, type: 2}
+  - {fileID: 11400000, guid: dc6cf243513ac32408e5b181b7faf760, type: 2}
+  - {fileID: 11400000, guid: 18c55052358b76b4eaac7aa1b820dd84, type: 2}
+  - {fileID: 11400000, guid: 3d1687aa8a30f8c4281e16caa1daf4c7, type: 2}
+  - {fileID: 11400000, guid: 197e4b7247f69fc46a6803794acbc155, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -84,6 +89,11 @@ MonoBehaviour:
   m_LabelTable:
     m_LabelNames:
     - default
+    - LabelTarget
+    - TargetObjectAddressables
+    - BuiltinObjectInAddressablesScene
+    - BuiltinPrefabInAddressablesScene
+    - AddressablesPrefabInAddressablesScene
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 1ceb483741a8bdf439d92f3271023254, type: 2}
