@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Empty.unity
+    guid: 9a827548054dfad4e85dd5ddbb8e2ece
+  - enabled: 1
+    path: Assets/Scenes/BuiltinObjectInBuiltinScene.unity
+    guid: 50cb750897609bd40872a7583c19808b
+  - enabled: 1
+    path: Assets/Scenes/BuiltinPrefabInBuiltinScene.unity
+    guid: 06bafc4a111864443b9285ceedda16ac
+  - enabled: 1
+    path: Assets/Scenes/AddressablesPrefabInBuiltinScene.unity
+    guid: 03b153e1b894e5d48aa6263746d3f77f
+  - enabled: 1
+    path: Assets/Tests/Tests.Utils/Editor/Resources/TestWithTargetObject.unity
+    guid: 2b38cda9a7a58e240b190f762876a7ad
+  - enabled: 1
+    path: Assets/Tests/Tests.Utils/Editor/Resources/TestWithoutTargetObject.unity
+    guid: a90b4ee635bd4cd42a3a3fc5b576d4da
+  - enabled: 1
+    path: Assets/Tests/Tests.Utils/Editor/Resources/TestWithAnotherObject.unity
+    guid: 53316829218967648ac3b048b4b13517
+  - enabled: 1
+    path: Assets/Tests/Tests.Utils/Editor/Resources/TestWithoutTargetEntity.unity
+    guid: cb0e6cd24afa4aa4db8dea4ef809548d
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 1158034092fa7d741976b6284b82317c, type: 2}
