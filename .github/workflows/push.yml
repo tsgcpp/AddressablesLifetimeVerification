@@ -17,8 +17,7 @@ jobs:
         unityVersion:
           - 2021.2.8f1
         targetPlatform:
-          - StandaloneWindows64
-          - Android
+          - StandaloneLinux64
 
     steps:
       - uses: actions/checkout@v2
@@ -40,6 +39,7 @@ jobs:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
         with:
           projectPath: ${{ matrix.projectPath }}
+          testMode: ${{ matrix.targetPlatform }}
           unityVersion: ${{ matrix.unityVersion }}
           githubToken: ${{ secrets.GITHUB_TOKEN }}
 
