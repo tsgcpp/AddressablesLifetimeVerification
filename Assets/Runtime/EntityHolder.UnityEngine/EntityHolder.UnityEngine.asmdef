@@ -1,0 +1,18 @@
+{
+    "name": "EntityHolder.UnityEngine",
+    "rootNamespace": "EntityHolder",
+    "references": [
+        "GUID:19d42fc0048cbaf448293c84e5451ab5",
+        "GUID:024804c69fb713b4bbcc24af1d0c04ea",
+        "GUID:c780c50e29d87de4f9325feda58ad434"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

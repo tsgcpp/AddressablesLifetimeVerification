@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: BuiltinPrefabInAddressablesScene
+  m_EditorClassIdentifier: 
+  m_GroupName: BuiltinPrefabInAddressablesScene
+  m_Data:
+    m_SerializedData: []
+  m_GUID: a5fada5a2555d4b41be2028861da2f6a
+  m_SerializeEntries:
+  - m_GUID: 888d4d265d9dac84e8a7fe161cacebac
+    m_Address: Assets/Scenes/NormalPrefabInAddressablesScene.unity
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - NormalPrefabInAddressablesScene
+    - BuiltinPrefabInAddressablesScene
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: ad942f55a6f740f41bfdce279093c2cf, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7a79dec55780c4f4297aa573ba29722d, type: 2}
+    - {fileID: 11400000, guid: c926ac3f8db443e43b18ff9359fa5b4c, type: 2}

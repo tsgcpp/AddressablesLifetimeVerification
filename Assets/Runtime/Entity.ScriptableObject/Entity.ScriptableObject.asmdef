@@ -1,0 +1,16 @@
+{
+    "name": "Entity.ScriptableObject",
+    "rootNamespace": "Entity",
+    "references": [
+        "GUID:19d42fc0048cbaf448293c84e5451ab5"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
