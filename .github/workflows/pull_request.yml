@@ -42,7 +42,7 @@ jobs:
           unityVersion: ${{ matrix.unityVersion }}
           targetPlatform: ${{ matrix.targetPlatform }}
 
-      - uses: tsgcpp/unity-test-runner@cb6be1771775e76f8bcdb8ea7effbb64e6c22952
+      - uses: tsgcpp/unity-test-runner@fe88c961264b35f5712b58a035b17f786fd780eb
         id: testRunner
         env:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
