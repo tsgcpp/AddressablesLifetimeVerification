@@ -50,7 +50,7 @@ jobs:
           projectPath: ${{ matrix.projectPath }}
           unityVersion: ${{ matrix.unityVersion }}
           githubToken: ${{ secrets.GITHUB_TOKEN }}
-          playModeTestPlatform: playmode
+          playModeTestPlatform: ${{ matrix.targetPlatform }}
 
       - uses: actions/upload-artifact@v2
         if: always()
