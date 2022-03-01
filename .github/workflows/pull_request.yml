@@ -48,9 +48,9 @@ jobs:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
         with:
           projectPath: ${{ matrix.projectPath }}
-          testMode: ${{ matrix.targetPlatform }}
           unityVersion: ${{ matrix.unityVersion }}
           githubToken: ${{ secrets.GITHUB_TOKEN }}
+          playModeTestPlatform: ${{ matrix.targetPlatform }}
 
       - uses: actions/upload-artifact@v2
         if: always()
